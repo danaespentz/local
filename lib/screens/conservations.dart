@@ -14,43 +14,43 @@ class Conversations extends StatefulWidget {
 
 List conversationList = [
   {
-    "name": "Μαρακι",
+    "name": "Maria",
     "imageUrl":
-        "https://images.unsplash.com/photo-1487977352961-6c1d15aa87c0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWljayUyMGphZ2dlcnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1427955569621-3e494de2b1d2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D",
     "isOnline": true,
     "hasStory": true,
-    "message": "μου λειψες",
+    "message": "okk",
     "time": "5:00 pm"
   },
   {
-    "name": "Δημητρα",
+    "name": "Giorgos",
     "imageUrl":
-        "https://plus.unsplash.com/premium_photo-1667900506743-5ec454d084e4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b24lMjB0aGUlMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1512699057394-81542d1afef2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D",
     "isOnline": false,
     "hasStory": false,
     "message": "Διαβαστηκε",
     "time": "7:00 am"
   },
   {
-    "name": "Jennifer",
+    "name": "Giannis",
     "imageUrl":
-        "https://plus.unsplash.com/premium_photo-1664369473396-15d857cf5e4b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9uJTIwdGhlJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1510279770292-4b34de9f5c23?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTJ8fHxlbnwwfHx8fHw%3D",
     "isOnline": true,
     "hasStory": false,
     "message": "Διαβαστηκε",
     "time": "6:50 am"
   },
   {
-    "name": "Λιτσα",
+    "name": "Natalia",
     "imageUrl":
-        "https://images.unsplash.com/photo-1512101176959-c557f3516787?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2lybCUyMG9uJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1469521669194-babb45599def?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D",
     "isOnline": true,
     "hasStory": true,
     "message": "Διαβαστηκε",
     "time": "yesterday"
   },
   {
-    "name": "ΔΗΜΗΤΡΑ 2",
+    "name": "Dimitra",
     "imageUrl":
         "https://images.unsplash.com/photo-1482555670981-4de159d8553b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdpcmwlMjBvbiUyMGJlYWNofGVufDB8fDB8fHww",
     "isOnline": false,
@@ -59,9 +59,9 @@ List conversationList = [
     "time": "2nd Feb"
   },
   {
-    "name": "Nτίνα",
+    "name": "Lefteris",
     "imageUrl":
-        "https://images.unsplash.com/flagged/photo-1575388105878-0ff8d276d368?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybCUyMG9uJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D",
     "isOnline": false,
     "hasStory": true,
     "message": "Διαβαστηκε",
@@ -70,19 +70,19 @@ List conversationList = [
   {
     "name": "Konstantina",
     "imageUrl":
-        "https://images.unsplash.com/photo-1578056926888-f8d68a8bc58f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lybCUyMG9uJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1460500063983-994d4c27756c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "isOnline": false,
     "hasStory": false,
     "message": "Διαβαστηκε",
     "time": "25th Jan"
   },
   {
-    "name": "Mom",
+    "name": "Orestis",
     "imageUrl":
-        "https://plus.unsplash.com/premium_photo-1668237106775-4acd1ab4f7ac?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW90aGVyfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1443428018053-13da55589fed?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "isOnline": false,
     "hasStory": false,
-    "message": "u r adopted!",
+    "message": "in 30'",
     "time": "15th Jan"
   }
 ];

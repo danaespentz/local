@@ -56,71 +56,83 @@ class _LoginFormState extends State<LoginForm> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Center(
-              child: Text('Get Social, get locaλ',
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 64, 128, 181)))),
+      appBar: AppBar(
+        title: Center(
+          child: Text(
+            'Get Social, get locaλ',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Color.fromARGB(255, 64, 128, 181),
+            ),
+          ),
         ),
-        body: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          child: Center(
-            child: Container(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  SizedBox(height: 50.0),
-                  Text(
-                    'Login',
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Color.fromARGB(255, 64, 128, 181),
-                        fontSize: 30.0),
+      ),
+      body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Center(
+          child: Container(
+            padding: EdgeInsets.symmetric(horizontal: 20.0), // Add padding to the container
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                SizedBox(height: 50.0),
+                Text(
+                  'Login',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Color.fromARGB(255, 64, 128, 181),
+                    fontSize: 30.0,
                   ),
-                  SizedBox(height: 10.0),
-                  Image.asset(
-                    "assets/logo.png",
-                    height: 150.0,
-                    width: 150.0,
-                  ),
-                  const SizedBox(
-                    height: 64,
-                  ),
-                  TextFieldInput(
+                ),
+                SizedBox(height: 10.0),
+                Image.asset(
+                  "assets/logo.png",
+                  height: 150.0,
+                  width: 150.0,
+                ),
+                const SizedBox(
+                  height: 64,
+                ),
+                Container(
+                  width: double.infinity,
+                  child: TextFieldInput(
                     hintText: 'Enter your email',
                     textInputType: TextInputType.emailAddress,
                     textEditingController: _emailController,
                   ),
-                  const SizedBox(
-                    height: 24,
-                  ),
-                  TextFieldInput(
+                ),
+                const SizedBox(
+                  height: 24,
+                ),
+                Container(
+                  width: double.infinity,
+                  child: TextFieldInput(
                     hintText: 'Enter your password',
                     textInputType: TextInputType.text,
                     textEditingController: _passwordController,
                     isPass: true,
                   ),
-                  const SizedBox(
-                    height: 24,
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(30.0),
-                    width: double.infinity,
-                    child: TextButton(
-                      child: Text(
-                        'Login',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                      onPressed: loginUser,
+                ),
+                const SizedBox(
+                  height: 24,
+                ),
+                Container(
+                  margin: EdgeInsets.all(30.0),
+                  width: double.infinity,
+                  child: TextButton(
+                    child: Text(
+                      'Login',
+                      style: TextStyle(color: Colors.white),
                     ),
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(30.0),
-                    ),
+                    onPressed: loginUser,
                   ),
-                  Container(
-                      child: Row(
+                  decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(30.0),
+                  ),
+                ),
+                Container(
+                  child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text('No account? '),
@@ -130,16 +142,20 @@ class _LoginFormState extends State<LoginForm> {
                           style: TextStyle(color: Colors.blue),
                         ),
                         onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (_) => SignupForm()));
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => SignupForm()),
+                          );
                         },
                       ),
                     ],
-                  )),
-                ],
-              ),
+                  ),
+                ),
+              ],
             ),
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
